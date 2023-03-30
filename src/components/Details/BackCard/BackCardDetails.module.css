@@ -13,5 +13,18 @@
 .cvv {
   color: var(--light-grayish-violet);
   position: absolute;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  .details {
+    position: absolute;
+    top: 250px;
+    left: 220px;
+  }
+  .wrapper {
+    position: relative;
+    top: 120px;
+    left: 210px;
+  }
 }

@@ -23,3 +23,12 @@ html {
 body {
   margin: 0;
 }
+
+.margin_md {
+  margin-right: 400px;
+}
+
+input.custom {
+  caret-color: var(--dark-grayish-violet);
+  font: 10px "Space Grotesk", "sans-serif";
+}

@@ -37,8 +37,19 @@
   display: inline block;
 }
 
-.form-max {
-  max-width: 400px;
-  margin: auto;
-  height: 100vh;
+.button {
+  background-color: var(--very-dark-violet);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 0px;
+}
+
+.custom {
+  caret-color: var(--very-dark-grayish-violet);
+  font: 16px "Space Grotesk", "sans-serif";
+  font-weight: 500;
+  width: 10px;
+  border: 2px solid var(--light-grayish-violet);
 }

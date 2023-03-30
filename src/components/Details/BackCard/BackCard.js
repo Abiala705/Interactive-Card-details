@@ -1,8 +1,8 @@
 import React from "react";
 
-import cardBack from "../../assets/bg-card-back.png";
-import styles from "../Details/BackCard.module.css";
-import BackCardDetails from "./BackCardDetails";
+import cardBack from "../../../assets/bg-card-back.png";
+import styles from "../../Details/BackCard/BackCard.module.css";
+import BackCardDetails from "../BackCard/BackCardDetails";
 
 const BackCard = () => {
   return (

@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import InputGroup from "react-bootstrap/InputGroup";
 import "./Expiry.css";
-import styles from "../Details/InteractiveForm.module.css";
+import styles from "../Form/InteractiveForm.module.css";
 import { FormControl } from "react-bootstrap";
 
 function Expiry() {
@@ -21,8 +21,19 @@ function Expiry() {
         <Col xs={4}>
           <Form.Label>Exp. date (MM/YY)</Form.Label>
           <InputGroup className="row gap-2 mb-3 ps-2">
-            <FormControl aria-label="MM" className="col-2" placeholder="MM" />
-            <FormControl aria-label="YY" className="col-2" placeholder="YY" />
+            <FormControl
+              aria-label="MM"
+              className="col-2"
+              placeholder="MM"
+              type="month"
+            />
+            <FormControl
+              aria-label="YY"
+              className="col-2"
+              placeholder="YY"
+              type="year"
+              value={""}
+            />
           </InputGroup>
         </Col>
 
@@ -32,6 +43,8 @@ function Expiry() {
             className={`col-1 cvc ` + styles.cvv}
             placeholder="CVC"
             size="3"
+            maxLength={3}
+            minLength={3}
           />
         </Col>
       </Row>

@@ -1,0 +1,17 @@
+.cardback {
+  position: relative;
+  width: 70vh;
+  left: 70px;
+  top: 40px;
+  width: 300px;
+}
+
+@media (min-width: 768px) {
+  .cardback {
+    position: relative;
+    width: 50vh;
+    left: 180px;
+    top: 300px;
+    width: 300px;
+  }
+}
