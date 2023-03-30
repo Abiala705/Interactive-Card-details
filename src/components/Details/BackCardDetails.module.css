@@ -1,0 +1,17 @@
+.details {
+  position: absolute;
+  top: 220px;
+  left: 220px;
+}
+
+.wrapper {
+  position: relative;
+  top: -107px;
+  left: 108px;
+}
+
+.cvv {
+  color: var(--light-grayish-violet);
+  position: absolute;
+  font-size: 0.6rem;
+}

@@ -1,0 +1,21 @@
+.section {
+  background-image: url("../assets/bg-main-mobile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  position: relative;
+}
+
+/* .card {
+  position: relative;
+  width: 400px;
+  border: 1px solid red;
+  height: 400px;
+} */
+
+@media screen and (min-width: 432) {
+  .section {
+    background-image: url("../assets/bg-main-desktop.png");
+  }
+}

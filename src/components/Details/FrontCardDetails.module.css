@@ -1,0 +1,36 @@
+.details {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.wrapper {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  top: 130px;
+  left: 20px;
+}
+
+.card-logo {
+  position: absolute;
+  transform: scale(0.6);
+  padding-right: -50px;
+}
+
+.card-input {
+  position: absolute;
+  color: var(--white);
+  padding-top: 75px;
+}
+
+.card-name {
+  font-size: 9px;
+  text-transform: uppercase;
+}
+.card-number {
+  word-spacing: 15px;
+}
+.card-expiry {
+  font-size: 12px;
+}
